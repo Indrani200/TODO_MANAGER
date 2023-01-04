@@ -101,11 +101,11 @@ describe("Todo test suite", () => {
 
     res = await agent.get("/");
     csrfToken = extractCsrfToken(res);
-    const deleteResponse = await agent.delete(`/todos/${latestTodo.id}`).send({
+    const deletedResponse = await agent.delete(`/todos/${latestTodo.id}`).send({
       _csrf: csrfToken,
     });
 
-    const deletestatus = JSON.parse(deleteResponse.text);
+    const deletestatus = JSON.parse(deletedResponse.text);
 
     deletestatus
       ? expect(deletestatus).toBe(true)
