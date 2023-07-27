@@ -20,11 +20,11 @@ This project aims to provide a comprehensive todo manager application that helps
 To run this project locally or contribute to its development, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Indrani200/TODO_MANAGER.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo
+   cd TODO_MANAGER
    ```
 3. Install the required dependencies:
    ```bash
@@ -44,6 +44,8 @@ To run this project locally or contribute to its development, follow these steps
 ## Contributing
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
+## Contact
+If you have any questions or need further assistance, feel free to contact the project maintainer at indupasumarthy02@gmail.com.
 
 ---
-Happy task management! If you have any questions or need further assistance, don't hesitate to reach out. Thanks for your interest in this project!
+Happy task management! If you have any other questions, don't hesitate to reach out. Thanks for your interest in this project!
